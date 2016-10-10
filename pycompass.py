@@ -3,7 +3,7 @@ from Compass import Compass
 cc = Compass.connect('localhost', 'admin', 'newpoint')
 print(cc)
 
-#alarms = cc.getActiveAlarms();
+#alarms = cc.getActiveAlarms()
 
 #for alarm in alarms:
 #    print('last_alarm:, %s\n' % alarm.last_alarm)
@@ -17,5 +17,10 @@ print(cc)
 #    print('tms_usec: %s\n' % alarm.tms_usec)
 #    print('descript: %s\n' % alarm.descript)
 #    print('dqconf: %s\n' % alarm.dqconf)
+
+#devices = cc.getDeviceList()
+
+#for device in devices
+#	print("device name: %s\n" % device.name)
 
 exit(0)
